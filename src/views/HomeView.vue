@@ -1,9 +1,12 @@
 <script  setup lang="ts" >
 import RestuarantTypeVue from '../components/RestuarantType.vue';
-
+import SearchView from '../components/SearchView.vue';
 </script>
 <template>
   <main>
+  <session>
+    <SearchView></SearchView>
+  </session>
   <section>
     this is Promotion Component
   </section>

@@ -1,5 +1,5 @@
 <script setup>
-import { ref,reactive } from 'vue'
+import { ref } from 'vue'
 import RestuarantListView from './RestuarantListView.vue';
 const names = ref([
                { id: 1, name: 'La Pie Sa', openingHour: "9am", closingHour: "8pm", rating: "5 stars" },
@@ -14,9 +14,6 @@ const names = ref([
    <div class="type-view" >
       <h2>Restuarant Types</h2>
       <span>Browse All</span>
-      
-      
-     
    </div>
    <session class="item-session">
          <RestuarantListView 
